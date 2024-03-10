@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container{
+    margin: 10% auto;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    overflow: hidden;
+
+}
+.container1{
+    width: 100%;
+    background-color: hsl(31, 77%, 52%);
+    padding: 1rem;
+}
+.container2{
+    width: 100%;
+    background-color: hsl(184, 100%, 22%);
+    padding:1rem;
+}
+.container3{
+    width: 100%;
+    background-color: hsl(179, 100%, 13%);
+    padding: 1rem;
+}
+.container h1{
+    font-family: "Big Shoulders Display", sans-serif;
+    color: hsl(0, 0%, 95%);
+    margin: 1rem 0;
+}
+.container p{
+    font-family: "Lexend Deca", sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 3rem;
+}
+.container button{
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: .5s;
+}
+.container1 button{
+    color: hsl(31, 77%, 52%);
+}
+.container2 button{
+    color: hsl(184, 100%, 22%);
+}
+.container3 button{
+    color: hsl(179, 100%, 13%);
+}
+.container button:hover{
+    background-color: transparent;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media screen  and (max-width:375px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+    }
+}
